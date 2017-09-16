@@ -8,3 +8,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.0]
 - Recolor braces, fix match highlight color
+
+## [0.1.1]
+- Added icon, screenshots
+
+## [0.1.2]
+- Fixed screenshot link
