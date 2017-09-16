@@ -2,14 +2,20 @@
     "name": "all-hallows-eve-plus",
     "displayName": "All Hallows' Eve Plus",
     "description": "A festive theme based on the colors of Halloween",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "konapun",
+    "homepage": "https://github.com/konapun/vscode_all-hallows-eve-plus/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/konapun/vscode_all-hallows-eve-plus.git"
+    },
     "engines": {
         "vscode": "^1.16.0"
     },
     "categories": [
         "Themes"
     ],
+    "icon": "icon.png",
     "contributes": {
         "themes": [
             {
