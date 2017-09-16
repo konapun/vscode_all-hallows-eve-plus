@@ -1,0 +1,22 @@
+{
+    "name": "all-hallows-eve-plus",
+    "displayName": "All Hallows' Eve Plus",
+    "description": "A festive theme based on the colors of Halloween",
+    "version": "0.0.1",
+    "publisher": "konapun",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "All Hallows' Eve Plus",
+                "uiTheme": "vs-dark",
+                "path": "./themes/All Hallows' Eve Plus-color-theme.json"
+            }
+        ]
+    }
+}
