@@ -9,6 +9,7 @@
 		"editor.foreground": "#fff",
 		"editor.selectionBackground": "#73597ee0",
 		"editor.lineHighlightBackground": "#1A0033",
+		"editor.findMatchBackground": "#73597ee0",
 		"editorCursor.foreground": "#fff",
 		"editorWhitespace.foreground": "#404040",
 		"sideBar.background": "#0c0c0c",
@@ -135,8 +136,8 @@
 			}
 		},
 		{
-			"name": "Function argument parentheses",
-			"scope": "punctuation.definition.parameters",
+			"name": "Braces",
+			"scope": "punctuation.definition.parameters, meta.brace.curly",
 			"settings": {
 				"foreground": "#9B9B9B"
 			}
