@@ -14,3 +14,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.2]
 - Fixed screenshot link
+
+## [0.1.3]
+- Break up terminal and sidebar with border color

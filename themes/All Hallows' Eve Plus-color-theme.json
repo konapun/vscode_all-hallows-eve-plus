@@ -14,6 +14,7 @@
 		"editorWhitespace.foreground": "#404040",
 		"sideBar.background": "#0c0c0c",
 		"sideBar.foreground": "#fff",
+		"sideBar.border": "#000",
 		"sideBarSectionHeader.background": "#161616",
 		"activityBar.background": "#000",
 		"tab.inactiveBackground": "#161616",
