@@ -3,6 +3,8 @@
 	"colors": {
 		"titleBar.activeBackground": "#0c0c0c",
 		"titleBar.inactiveBackground": "#0c0c0c",
+		"input.border": "#5600AC",
+		"focusBorder": "#5600AC",
 		"editor.background": "#000",
 		"editor.foreground": "#fff",
 		"editor.selectionBackground": "#73597ee0",
