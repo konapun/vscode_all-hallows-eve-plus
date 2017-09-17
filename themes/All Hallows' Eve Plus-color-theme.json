@@ -99,6 +99,14 @@
 			}
 		},
 		{
+			"name": "Object references",
+			"scope": "variable.other.object",
+			"settings": {
+				"foreground": "#fff",
+				"foreground.OLD": "#FFC400"
+			}
+		},
+		{
 			"name": "Object reference keys",
 			"scope": "meta.property.object",
 			"settings": {
@@ -129,8 +137,8 @@
 			}
 		},
 		{
-			"name": "Function",
-			"scope": "storage.type.function, entity.name.function, meta.function, support.function",
+			"name": "Function params",
+			"scope": "entity.name.function, meta.function, support.function, variable.parameter.function",
 			"settings": {
 				"foreground": "#d9ff00"
 			}

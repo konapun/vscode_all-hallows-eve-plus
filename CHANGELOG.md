@@ -21,3 +21,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.2.0]
 - Updated badge color and button colors to match status bar
 - Improved colors for ruby
+
+## [0.3.0]
+- Changed token colors
