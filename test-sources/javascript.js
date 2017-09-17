@@ -12,6 +12,8 @@ class TestClass extends Thing {
 
 function test (games) {
     const game = games.get(args.id)
+
+    console.log('testing')
 }
 
 // line comment

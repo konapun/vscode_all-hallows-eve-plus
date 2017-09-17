@@ -85,7 +85,7 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": "keyword, storage.type.class, storage.type",
+			"scope": "keyword, storage.type.class, storage.type, support.class",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#ff9a00"
@@ -130,7 +130,7 @@
 		},
 		{
 			"name": "Function",
-			"scope": "storage.type.function, entity.name.function.method",
+			"scope": "storage.type.function, entity.name.function, meta.function, support.function",
 			"settings": {
 				"foreground": "#d9ff00"
 			}
@@ -227,14 +227,6 @@
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Support function",
-			"scope": "support.function",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#C83730"
 			}
 		},
 		{
