@@ -17,3 +17,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.3]
 - Break up terminal and sidebar with border color
+
+## [0.2.0]
+- Updated badge color and button colors to match status bar
+- Improved colors for ruby
