@@ -171,7 +171,7 @@
 		},
 		{
 			"name": "Braces, punctuation",
-			"scope": "punctuation.definition.parameters, meta.brace, meta.group.braces.round, punctuation.section.class, punctuation.section.scope, punctuation.section.function, keyword.operator.accessor, punctuation.section.property-list, punctuation.separator, meta.delimiter, punctuation.terminator, punctuation.definition.dictionary, punctuation.definition.tag",
+			"scope": "punctuation, meta.brace, meta.group.braces.round, keyword.operator.accessor, meta.delimiter",
 			"settings": {
 				"foreground": "#9B9B9B"
 			}
