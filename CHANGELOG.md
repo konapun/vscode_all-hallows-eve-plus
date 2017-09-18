@@ -24,3 +24,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.3.0]
 - Changed token colors
+
+## [0.3.1]
+- Colored active file selecton in tree view
+- Modified status bar color for debugging
