@@ -1,0 +1,19 @@
+/* Comment */
+element {
+    padding: 16px;
+}
+
+#id {
+
+}
+
+.class {
+
+}
+
+.pseudo-class:active {
+
+}
+
+.pseudo-element::after {
+}

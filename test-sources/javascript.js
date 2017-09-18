@@ -5,7 +5,8 @@ class TestClass extends Thing {
         let str = 'string'
         let number = 90
         let obj = {
-            key: number
+            key: number,
+            key2: number2
         }
     }
 }
@@ -13,7 +14,9 @@ class TestClass extends Thing {
 function test (games) {
     const game = games.get(args.id)
 
-    console.log('testing')
+    console.log('testing');
+    const thing = 1 == 1 ? (1 && 1) : (1 || 0)
+    obj.prop.method()
 }
 
 // line comment

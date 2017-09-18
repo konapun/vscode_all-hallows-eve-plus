@@ -89,15 +89,22 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": "keyword, storage.type.class, storage.type, support.class",
+			"scope": "keyword, storage.type.class, storage.type, support.class, entity.name.tag",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#ff9a00"
 			}
 		},
 		{
+			"name": "Special tokens",
+			"scope": "punctuation.definition.entity, variable.other",
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
 			"name": "Objects",
-			"scope": "entity.name.class",
+			"scope": "entity.name.class, entity.other.attribute-name",
 			"settings": {
 				"foreground": "#c900ff"
 			}
@@ -112,9 +119,16 @@
 		},
 		{
 			"name": "Object reference keys",
-			"scope": "meta.property.object",
+			"scope": "meta.property.object, constant.other.symbol.hashkey",
 			"settings": {
 				"foreground": "#09ff00"
+			}
+		},
+		{
+			"name": "Assignment operators",
+			"scope": "punctuation.separator.key-value",
+			"settings": {
+				"foreground": "#ff9a00"
 			}
 		},
 		{
@@ -142,7 +156,7 @@
 		},
 		{
 			"name": "Function params",
-			"scope": "entity.name.function, meta.function, support.function, variable.parameter.function",
+			"scope": "entity.name.function, meta.function, support.function, variable.parameter.function, entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element",
 			"settings": {
 				"foreground": "#d9ff00"
 			}
@@ -156,8 +170,8 @@
 			}
 		},
 		{
-			"name": "Braces",
-			"scope": "punctuation.definition.parameters, meta.brace.curly",
+			"name": "Braces, punctuation",
+			"scope": "punctuation.definition.parameters, meta.brace, meta.group.braces.round, punctuation.section.class, punctuation.section.scope, punctuation.section.function, keyword.operator.accessor, punctuation.section.property-list, punctuation.separator, meta.delimiter, punctuation.terminator, punctuation.definition.dictionary, punctuation.definition.tag",
 			"settings": {
 				"foreground": "#9B9B9B"
 			}
