@@ -21,10 +21,8 @@ function test (games) {
 
 // line comment
 /**
- * 
  * Block comment
- * 
  */
 const fn = (param1, param2, param3) => {
-    param1.map(val => val * 12)
+    param1.map(val => { val * 12 })
 }

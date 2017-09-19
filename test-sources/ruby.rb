@@ -2,6 +2,7 @@ require 'test'
 
 CONSTANT_VAR = 'string'
 
+# Comment
 class Test 
 
     def initialize (param)

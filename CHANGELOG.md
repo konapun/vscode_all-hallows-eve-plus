@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "all-hallows-eve-plus" extension will be documented in this file.
 
+## [0.4.2]
+- Fixed regression with argument colors
+
 ## [0.4.1]
 - Unified brace colors, other minor token color fixes, added optimizations for HTML and CSS
 
