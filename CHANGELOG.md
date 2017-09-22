@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "all-hallows-eve-plus" extension will be documented in this file.
 
+## [0.4.3]
+- Fixed dollar sign variables to not use punctuation highlighting
+
 ## [0.4.2]
 - Fixed regression with argument colors
 

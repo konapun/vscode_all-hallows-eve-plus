@@ -97,7 +97,7 @@
 		},
 		{
 			"name": "Special tokens",
-			"scope": "punctuation.definition.entity",
+			"scope": "punctuation.definition.entity, punctuation.dollar",
 			"settings": {
 				"foreground": "#fff"
 			}
@@ -126,7 +126,7 @@
 		},
 		{
 			"name": "Assignment operators",
-			"scope": "punctuation.separator.key-value",
+			"scope": "punctuation.separator.key-value, punctuation.separator.dictionary.key-value",
 			"settings": {
 				"foreground": "#ff9a00"
 			}
@@ -156,7 +156,7 @@
 		},
 		{
 			"name": "Function params",
-			"scope": "entity.name.function, meta.function, support.function, variable.parameter.function, variable.other.block, entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element",
+			"scope": "entity.name.function, meta.function, meta.function punctuation.dollar, support.function, variable.parameter.function, variable.other.block, entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element",
 			"settings": {
 				"foreground": "#d9ff00"
 			}
@@ -171,7 +171,7 @@
 		},
 		{
 			"name": "Braces, punctuation",
-			"scope": "punctuation, meta.brace, keyword.operator.accessor, meta.delimiter, meta.group.braces.round.function",
+			"scope": "punctuation, meta.brace, meta.delimiter, meta.group.braces.round.function",
 			"settings": {
 				"foreground": "#9B9B9B"
 			}
