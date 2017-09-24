@@ -89,7 +89,7 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": "keyword, storage.type.class, storage.type, support.class, entity.name.tag",
+			"scope": "keyword, storage.type.class, storage.type, storage.modifier, support.class, entity.name.tag",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#ff9a00"
