@@ -66,8 +66,8 @@
 			}
 		},
 		{
-			"name": "Source base",
-			"scope": "source",
+			"name": "Normal text",
+			"scope": "source, variable.other.readwrite, meta.definition.variable variable.other.readwrite, meta.function.expression variable.other.readwrite",
 			"settings": {
 				"background": "#000000",
 				"foreground": "#FFFFFF"
@@ -89,7 +89,7 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": "keyword, storage.type.class, storage.type, storage.modifier, support.class, entity.name.tag",
+			"scope": "keyword, storage.type.class, storage.type, storage.modifier, support.class, entity.name.tag, variable.language",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#ff9a00"
@@ -119,7 +119,7 @@
 		},
 		{
 			"name": "Object reference keys",
-			"scope": "meta.property.object, constant.other.symbol.hashkey",
+			"scope": "meta.property.object, constant.other.symbol.hashkey, meta.object-literal.key, support.variable.property, variable.other.property, variable.other.object.property",
 			"settings": {
 				"foreground": "#09ff00"
 			}
@@ -146,7 +146,7 @@
 				"foreground": "#c900ff"
 			}
 		},
-		
+
 		{
 			"name": "Pre-processor Directive",
 			"scope": "keyword.control.import",
@@ -156,7 +156,7 @@
 		},
 		{
 			"name": "Function params",
-			"scope": "entity.name.function, meta.function, meta.function punctuation.dollar, support.function, variable.parameter.function, variable.other.block, entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element",
+			"scope": "entity.name.function, meta.function, meta.function variable.other.readwrite, meta.function punctuation.dollar, support.function, variable.parameter, variable.other.block, entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element",
 			"settings": {
 				"foreground": "#d9ff00"
 			}
