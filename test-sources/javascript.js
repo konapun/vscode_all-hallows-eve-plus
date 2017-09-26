@@ -25,6 +25,7 @@ function test (games) {
  */
 const fn = (param1, param2, param3) => {
     param1.map(val => { val * 12 })
+    throw new Error('error')
 }
 
 function dollarStuff($param, param) {

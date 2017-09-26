@@ -135,7 +135,7 @@
 			"name": "Entity",
 			"scope": "constant.language.name, entity.name.type, entity.other.inherited-class",
 			"settings": {
-				"foreground": "#ff9a00"
+				"foreground": "#c900ff"
 			}
 		},
 		{
@@ -174,14 +174,6 @@
 			"scope": "punctuation, meta.brace, meta.delimiter, meta.group.braces.round.function",
 			"settings": {
 				"foreground": "#9B9B9B"
-			}
-		},
-		{
-			"name": "Function argument",
-			"scope": "variable.parameter",
-			"settings": {
-				"foreground": "#c900ff",
-				"fontStyle": "italic"
 			}
 		},
 		{

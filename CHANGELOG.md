@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "all-hallows-eve-plus" extension will be documented in this file.
 
+## [0.5.0]
+- Added parity for regular javascript source with babel es6 grammar
+
 ## [0.4.4]
 - Added optimizations for PHP
 
