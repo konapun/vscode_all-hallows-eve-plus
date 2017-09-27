@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to the "all-hallows-eve-plus" extension will be documented in this file.
 
+## [0.5.2]
+- Recolor accessor, don't use normal punctuation colorization for variable punctuation
+
+## [0.5.1]
+- More fixes to make javascript highlighting to match babel highlighting
+
 ## [0.5.0]
 - Added parity for regular javascript source with babel es6 grammar
 

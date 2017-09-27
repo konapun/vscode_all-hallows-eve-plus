@@ -89,7 +89,7 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": "keyword, storage.type.class, storage.type, storage.modifier, support.class, entity.name.tag, variable.language",
+			"scope": "keyword, storage.type.class, storage.type, storage.modifier, support.class, entity.name.tag, variable.language, punctuation.accessor",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#ff9a00"
@@ -97,7 +97,7 @@
 		},
 		{
 			"name": "Special tokens",
-			"scope": "punctuation.definition.entity, punctuation.dollar",
+			"scope": "punctuation.definition.entity, punctuation.dollar, punctuation.definition.variable",
 			"settings": {
 				"foreground": "#fff"
 			}
@@ -113,8 +113,7 @@
 			"name": "Object references",
 			"scope": "variable.other.object",
 			"settings": {
-				"foreground": "#fff",
-				"foreground.OLD": "#FFC400"
+				"foreground": "#fff"
 			}
 		},
 		{
@@ -144,14 +143,6 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#c900ff"
-			}
-		},
-
-		{
-			"name": "Pre-processor Directive",
-			"scope": "keyword.control.import",
-			"settings": {
-				"fontStyle": ""
 			}
 		},
 		{
