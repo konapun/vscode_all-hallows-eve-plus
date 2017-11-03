@@ -32,6 +32,8 @@
 		"statusBar.noFolderBackground": "#5600AC",
 		"statusBar.debuggingBackground": "#ff9a00",
 		"statusBar.debuggingForeground": "#000",
+		"tab.activeBorder": "#5600AC",
+		"panelTitle.activeBorder": "#5600AC",
 		"terminal.ansiBlack": "#404040",
 		"terminal.ansiBlue": "#c900ff",
 		"terminal.ansiBrightBlack": "#404040",
@@ -118,7 +120,7 @@
 		},
 		{
 			"name": "Object reference keys",
-			"scope": "meta.property.object, constant.other.symbol.hashkey, meta.object-literal.key, support.variable.property, variable.other.property, variable.other.object.property",
+			"scope": "meta.property.object, meta.property-name, constant.other.symbol.hashkey, meta.object-literal.key, support.variable.property, variable.other.property, variable.other.object.property",
 			"settings": {
 				"foreground": "#09ff00"
 			}
@@ -162,9 +164,9 @@
 		},
 		{
 			"name": "Braces, punctuation",
-			"scope": "punctuation, meta.brace, meta.delimiter, meta.group.braces.round.function",
+			"scope": "punctuation, meta.brace, meta.delimiter, meta.group.braces.round.function, punctuation source",
 			"settings": {
-				"foreground": "#9B9B9B"
+					"foreground": "#9B9B9B"
 			}
 		},
 		{

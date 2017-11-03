@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "all-hallows-eve-plus" extension will be documented in this file.
 
+## [0.5.3]
+- Fixes for CSS
+- Added active tab underline
+
 ## [0.5.2]
 - Recolor accessor, don't use normal punctuation colorization for variable punctuation
 
