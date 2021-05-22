@@ -1,7 +1,8 @@
 {
 	"type": "dark",
 	"colors": {
-		"titleBar.activeBackground": "#0c0c0c",
+		"titleBar.activeBackground": "#ff9a00",
+		"titleBar.activeForeground": "#0c0c0c",
 		"titleBar.inactiveBackground": "#0c0c0c",
 		"input.border": "#5600AC",
 		"focusBorder": "#5600AC",
@@ -20,8 +21,8 @@
 		"editorWhitespace.foreground": "#404040",
 		"notification.buttonBackground": "#5600AC",
 		"notification.buttonHoverBackground": "#7000E0",
-		"sideBar.background": "#0c0c0c",
-		"sideBar.foreground": "#fff",
+		"sideBar.background": "#ff9a00",
+		"sideBar.foreground": "#0c0c0c",
 		"sideBar.border": "#000",
 		"sideBarSectionHeader.background": "#161616",
 		"activityBar.background": "#000",
